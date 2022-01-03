@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+p{
+    color: rgb(211, 211, 211);
+    font-size: 18px;
+}
+body{
+    background-color: rgb(89, 134, 173);
+    min-width: 400px;
+    height: max-content;
+}
+img{
+    max-width: 100px;
+    max-height: 100px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.err{
+    color: brown;
+}
